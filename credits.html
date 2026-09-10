@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Credits | Below the Skyline</title>
+<meta charset="utf-8">
+<link href="../style.css" rel="stylesheet" type="text/css">
+<style>
+body {
+  background-color: white;
+}
+h2 {
+  font-size: larger;
+}
+:target {
+  display: none;
+}
+</style>
+<script>
+window.onload = function () {
+  if (/embedded/.test(window.location.search)) {
+    var h1 = document.getElementsByTagName("h1")[0];
+    h1.parentNode.removeChild(h1);
+
+    var back = document.getElementById("back");
+    back.parentNode.removeChild(back);
+  }
+}
+</script>
+</head>
+<body id="main">
+<h1>Credits</h1>
+
+<h2><a href="index.html">Below the Skyline</a></h2>
+
+<ul>
+  <li>Writer: dozendietcokesaday</li>
+  <li>Art: Vance Chance</li>
+  <li>Beta Testers: Hamartia, Kate27</li>
+  <li>ChoiceScript Language: Dan Fabulich</li>
+</ul>
+
+<p>"Below the Skyline" is Copyright 2026 dozendietcokesaday. All rights reserved.</p>
+
+<p><img src="header.jpg" alt="Below the Skyline"></p>
+
+<h2>About the Author</h2>
+<p>dozendietcokesaday is the author of <i>Below the Skyline</i>.</p>
+
+<h2>About Hosted Games</h2>
+<p>Hosted Games publishes interactive novels by independent authors using <a href="https://www.choiceofgames.com/make-your-own-games/choicescript-intro/">ChoiceScript</a>, a scripting language for creating text-based multiple-choice games.</p>
+
+<p><a href="https://www.choiceofgames.com/category/user-made-games/">Play more games like this</a></p>
+
+<p><a id="back" href="index.html">Back to the game</a></p>
+</body>
+</html>
